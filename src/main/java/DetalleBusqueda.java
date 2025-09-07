@@ -16,7 +16,7 @@ public class DetalleBusqueda {
     @Column(name = "edadMaxima")
     private Integer edadMaxima;
 
-    @Column(name = "edadMaxima")
+    @Column(name = "generoObra")
     private String generoObra;
 
 

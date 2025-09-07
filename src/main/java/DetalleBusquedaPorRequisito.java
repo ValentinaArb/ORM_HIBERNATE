@@ -1,7 +1,8 @@
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-public class DetalleBusquedaPorRequisito {
+public class DetalleBusquedaPorRequisito implements Serializable {
 
     @Id
     @ManyToOne
